@@ -1,0 +1,67 @@
+My bathroom is a ghetto.
+
+Git is fun.
+
+= = =
+
+How did viewing a diff between two versions of a file help you see the bug
+ that was introduced?
+
+How did viewing a diff between two version help you spot the bug?
+
+Answers:
+ Only the areas of the file that were changed are indicated, which saves
+ time not looking at areas that were not impacted by the previous change.
+
+ The "diff" command highlights the differences between the two files.
+
+= = =
+
+How could having easy access to the entire history of a file make you a more
+ efficient programmer in the long term?
+
+It serves as a memory aid which increases productivity.
+
+= = =
+
+What do you think are the pros and cons of manually choosing when to create a
+ commit, like you do in Git, vs having versions automatically saved, like
+ Google Docs does?
+
+Pro is it allows you to create commits that represent a logical piece of work
+ to add now and maybe rework or delete later.
+
+= = =
+
+Why do you think some version control systems, like Git, allow saving multiple
+ files in one commit, while others, like Google Docs, treat each file
+ separately?
+
+Because changes to more than one file can be related to the same problem and
+ fix.
+
+= = =
+
+How can you use the commands git log and git diff to view the history of
+ files?
+
+I can use "git log" to find changes and "git diff" to view what the changes
+ were.
+
+= = =
+
+How might using version control make you more confident to make changes that
+ could break something?
+
+Version control might make me more confident because it would simplify backing
+ out broken versions.
+
+= = =
+
+Now that you have your workspace set up, what do you want to try using Git
+ for?
+
+I'd like to use it to work on R fwrite()
+
+= = =
+
