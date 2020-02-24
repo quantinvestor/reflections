@@ -1,0 +1,74 @@
+
+= = =
+
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a Git repository with "$ git init" then Git creates a
+ directory names .git to track changes to the repository.
+
+You need to initialize a repository or Git will not be able to track changes.
+
+= = =
+
+How is the staging area different from the working directory and the
+ repository?
+
+A staging area is where "$ git add" puts and holds modified files to be
+ committed.
+
+The working directory is the current directory where you are. It may be the
+ repository root or a subdirectory of the repository root.
+
+What value do you think it offers?
+
+A temporary work area.
+
+= = =
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can make sure you have one commit per logical change by only adding, with "$git add", the files
+you want to commit to the staging area and then do a "$git commit".
+
+= = =
+
+What are some situations when branches would be helpful in keeping your history organized? How would
+branches help?
+
+Branches are a way of organizing new development to an existing program. The master branch can be
+the release version of the program and the branch or branches are the new development efforts.
+
+= = =
+
+How do the diagrams help you visualize the branch structure?
+
+A drawn diagram often makes understanding branches easier
+
+= = =
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is a single branch containing the commits from both branches.
+
+The merge is represented in the diagram from the command:
+
+$ git log --graph --oneline <branch1> <branch2>
+
+because even though all the commits are now in a single branch, the parent of any single commit is not
+necessarily the previous commit from:
+
+$ git log
+
+but rather the previous commit of the pre-merged branch.
+
+= = =
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Obviously the pro of automatic merging is that it's done for you by Git and that saves you time.
+
+The con is that merging doesn't always work and automatic merging can create errors.
+
+= = =
