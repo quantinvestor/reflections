@@ -25,3 +25,16 @@ The most obvious reason one would want to manually pull changes to a remote
 
 = = =
 
+Describe the differences between forks, clones, and branches.  When would you
+ use one instead of another?
+
+fork - creates an identical copy of a repo from another GitHub user to your
+ account
+
+clone - creates a local copy of a repository from the GitHub origin URL you
+ set using 'git remote'
+
+branch - creates a branch label of another branch on your local system
+
+= = =
+
